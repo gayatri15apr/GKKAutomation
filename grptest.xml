@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+    <groups>
+    <run>
+    <include name="smoke"></include>
+    </run>
+    </groups>
+    <classes>
+      <class name="com.grp.Walmart"/>
+      <class name="com.grp.IHGLogin"/>
+      <class name="com.grp.AmazonTest"/>
+      <class name="com.grp.FlipKart"/>
+      <class name="com.grp.Facebook"/>
+      <class name="com.grp.OrangeHRM"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
